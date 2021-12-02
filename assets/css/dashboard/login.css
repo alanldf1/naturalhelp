@@ -1,0 +1,79 @@
+.form-group input, .form-group input:focus, .form-group input:hover, .form-group input:active, .form-group select, .form-group select:focus, .form-group select:hover, .form-group select:active {
+    width: 100%;
+    padding: 10px;
+    color: #666;
+    border: none;
+    border-color: transparent;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    position: relative;
+}
+
+.form-group input:not(:placeholder-shown), .form-group select {
+    color: #fff !important;
+}
+
+.login{
+    background-color: #333;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 35px;
+    width: 50%;
+    z-index:999;
+}
+
+.login header img{
+    height: 120px;
+}
+
+.login h3{
+    padding: 30px 0;
+}
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+    padding: 57px 0;
+    background: rgb(179,191,184);
+    background: -moz-linear-gradient(180deg, rgba(0,230,102,1) 0%, rgba(0,151,197,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,230,102,1) 0%, rgba(0,151,197,1) 100%);
+    background: linear-gradient(180deg, rgba(0,230,102,1) 0%, rgba(0,151,197,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3bfb8",endColorstr="#7e8d85",GradientType=1);
+    margin-bottom: -250px;
+}
+
+section form p a {
+    font-size: 0.7em;
+    text-decoration: none;
+}
+section form h4 span, section form a {
+    color: #fff;
+}
+section form a:hover {
+    text-decoration: underline;
+}
+
+.btn-outline-light:hover {
+    color: #333;
+    background-color: #cd1482;
+    background: -moz-linear-gradient(180deg, rgba(0,230,102,1) 0%, rgba(0,151,197,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,230,102,1) 0%, rgba(0,151,197,1) 100%        );
+    background: linear-gradient(180deg, rgba(0,230,102,1) 0%, rgba(0,151,197,1) 100%);
+    border-color: #333;
+}
+
+#recover-email{
+    cursor: pointer;
+}
+
+@media(max-width: 767px){
+
+    .login{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,9 @@
+#quem-somos .rounded-circle{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+#quem-somos img{
+	width: 200px;
+}
