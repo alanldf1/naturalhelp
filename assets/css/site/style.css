@@ -1,0 +1,64 @@
+:root {
+	--color-yellow: #817f7b;
+	--color-green: #029a02;
+	--color-orange: #db4924;
+	--color-dark-blue: #00193e;
+}
+.dark{
+  color: #00193e!important;
+}
+.green{
+  color: #38e371;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'montserrat regular';
+	color: #fff;	
+	font-weight: normal;
+}
+
+body {
+  color: #5a5a5a;
+}
+nav .logo img{
+  height: 55px;
+}
+
+/* .marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.featurette-divider {
+  margin: 5rem 0;
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+} */

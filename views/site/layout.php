@@ -15,13 +15,7 @@ $url = $this->helpers['URLHelper']->getURL();
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title> Natural help - Doações, peça ajuda ou ajude.</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/slick-master/slick/slick.css">
-  	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/slick-master/slick/slick-theme.css">
-  	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/slick-master/slick/custom.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/layout.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/quem-somos.css">
+	<title>Time to help - Doações, peça ajuda ou ajude.</title>	
 </head>
 <body>
 	<header>
@@ -33,27 +27,27 @@ $url = $this->helpers['URLHelper']->getURL();
 	        <div class="collapse navbar-collapse" id="navbarCollapse">
 	          <ul class="navbar-nav ml-auto">
 	            <li class="nav-item active">
-	              <a class="nav-link" href="<?php echo $url?>">Início <span class="sr-only">(atual)</span></a>
+	              <a class="nav-link" href="<?php echo $url; ?>">Início <span class="sr-only">(atual)</span></a>
 	            </li>
 
 	            <li class="nav-item">
-	              <a class="nav-link" href="<?php echo $url?>/quem-somos">Quem Somos</a>
+	              <a class="nav-link" href="<?php echo $url; ?>/quem-somos">Quem Somos</a>
 	            </li>
 
 	            <li class="nav-item">
-	              <a class="nav-link" href="<?php echo $url?>/nos-apoie">Nos Apoie</a>
+	              <a class="nav-link" href="<?php echo $url; ?>/nos-apoie">Nos Apoie</a>
 	            </li>
 
 	            <li class="nav-item">
-	              <a class="nav-link" href="<?php echo $url?>/doacoes">Doações</a>
+	              <a class="nav-link" href="<?php echo $url; ?>/doacoes">Doações</a>
 	            </li>
 
 	            <li class="nav-item">
-	              <a class="nav-link" href="<?php echo $url?>/ongs">ONGs</a>
+	              <a class="nav-link" href="<?php echo $url; ?>/ongs">ONGs</a>
 	            </li>
 
 	            <li class="nav-item">
-	              <a class="nav-link" href="<?php echo $url?>/contato">Contato</a>
+	              <a class="nav-link" href="<?php echo $url; ?>/contato">Contato</a>
 	            </li>
 	            
 	          </ul>

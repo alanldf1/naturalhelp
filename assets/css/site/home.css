@@ -1,9 +1,24 @@
-section.top .banner-top{
-  background: url(/assets/img/banners/help1.jpg) no-repeat center;
+.home-content#home .banner-top{
+  background: url(../../img/banners/street-flooded.jpg);
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: contrast(.8);
+  height: 330px;
   width: 100%;
 }
+.home-content#home .banner-top h2{
+  text-shadow: 2px 3px 8px #333;
+  text-align: center;
+  width: 50%;
+}
 
+.home-content#home .text-asking p{
+  font-size: 20px;
+}
 
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;

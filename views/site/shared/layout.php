@@ -26,8 +26,8 @@ $url = $this->helpers['URLHelper']->getURL();
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<a class="navbar-brand" href="#">
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+				<a class="navbar-brand logo" href="#">
 					<img src="<?php echo $url; ?>/assets/img/padrao/logo.png" alt="logo NaturalHelp">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
