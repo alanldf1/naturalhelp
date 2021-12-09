@@ -1,5 +1,5 @@
 .home-content#home .banner-top{
-  background: url(../../img/banners/street-flooded.jpg);
+  background: url(../../../img/banners/street-flooded.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,6 @@
 .home-content#home .banner-top h2{
   text-shadow: 2px 3px 8px #333;
   text-align: center;
-  width: 50%;
 }
 
 .home-content#home .text-asking p{

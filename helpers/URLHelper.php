@@ -132,9 +132,7 @@ class URLHelper
 
 		foreach($this->styles as $value)
 		{
-			$version = (ENV == 'dev' or 1 == 1) ? '?version=' . date('d-m-Y h:i:s') : '';
-
-			echo '<link rel="stylesheet" type="text/css" href="'.$this->getURL().'/'.$value.$version.'">';
+			echo '<link rel="stylesheet" type="text/css" href="'.$this->getURL().'/'.$value.'">';
 		}
 
 	}
@@ -153,9 +151,19 @@ class URLHelper
 
 		foreach($this->scripts as $value)
 		{	
-			$version = (ENV == 'dev' or 1 == 1) ? '?version=' . date('d-m-Y h:i:s') : '';
-			echo '<script defer type="text/javascript" src="'.$this->getURL().'/'.$value.$version.'"></script>';
+
+			if(stripos($value, 'https://') === false && stripos($value, 'http://') === false){
+		
+				echo '<script defer type="text/javascript" src="'.$this->getURL() . '/' .$value.'"></script>';
+
+			}else{
+
+				echo '<script defer type="text/javascript" src="'.$value.'"></script>';
+			
+			}
 		}
+
+
 
 	}
 

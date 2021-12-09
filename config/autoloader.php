@@ -15,21 +15,28 @@
 *
 **/
 $paths = array(
+  //site
   'controllers',
   'controllers/site',
-  'controllers/site/home',
+  'controllers/site/about',
   'controller/site/aid',
+  'controllers/site/donate',
   'helpers',
 
+  //dashboard
+  'controllers/dashboard',
+  'controllers/dashboard/login',
+  'controllers/dashboard/home',
+  'controllers/dashboard/donor',
+  'controllers/dashboard/case',
+
+  //backend
   'models',
   'models/db',
   'models/user',
   'models/mensagens',
   'models/admin',
 
-  'controllers/dashboard',
-  'controllers/dashboard/login',
-  'controllers/dashboard/home',
 );
 
 /**

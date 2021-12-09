@@ -2,7 +2,10 @@
 
 /**
 *
-* @author Alan de Souza
+* Controller que pode ser extendido por outros
+* controllers para fornecer funcionalidades comuns.
+*
+* @author Emprezaz.com
 *
 **/
 abstract class Controller
@@ -27,6 +30,7 @@ abstract class Controller
 		$this->layout = $filename;
 
 	}
+
 	protected function view($filename, array $data = array())
 	{
 

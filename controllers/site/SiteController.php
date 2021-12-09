@@ -10,14 +10,6 @@ class SiteController extends Controller
 {
 
 
-	public function quemSomos()
-	{
-
-		$this->setLayout('site/layout.php');
-		$this->view('site/quem-somos.php');
-
-	}
-
 	public function nosapoie()
 	{
 

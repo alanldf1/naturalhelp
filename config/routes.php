@@ -10,17 +10,17 @@
 
 $commonRoutes = array(
 	'/'                    	=> 'HomeController/index',
-	'quem-somos'           	=> 'SiteController/quemSomos',
+	'quem-somos'           	=> 'AboutController/index',
 	'nos-apoie'            	=> 'AidController/index',
 	'contato'              	=> 'SiteController/contato',
-	'doacoes'              	=> 'SiteController/doacoes',
+	'doacoes'              	=> 'DonateController/index',
 	'ongs'                 	=> 'SiteController/ongs',
 
 	// Rotas da dashboard
-	'dashboard'				=> 'DashboardController/index',
+	'dashboard'		  		=> 'HomeDashboardController/index',
 	'dashboard/login'		=> 'LoginAdminController/login',
-	'dashboard/doador'    	=> 'DonaterController/index',
-	'dashboard/recebedor' 	=> 'ReceiverController/index',
+	'dashboard/donor'    	=> 'DonorController/index',
+	'dashboard/case' 		=> 'ReceiverController/index',
 	'dashboard/mensagens' 	=> 'MessagesController/index',
 );
 
