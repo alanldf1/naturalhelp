@@ -16,13 +16,13 @@
 		</tr>
 	</thead>
 	<tbody>
-		<?php foreach($usuarios as $usuario) { ?>
+		<?php foreach($cases as $case) { ?>
 			<tr>
-				<td><?php echo $usuario['id']; ?></td>
-				<td><?php echo $usuario['nome']; ?></td>
-				<td><?php echo $usuario['email']; ?></td>
-				<td><?php echo $usuario['telefone']; ?></td>
-				<td><?php echo $usuario['doc']; ?></td>
+				<td><?php echo $case['id']; ?></td>
+				<td><?php echo $case['name']; ?></td>
+				<td><?php echo $case['email']; ?></td>
+				<td><?php echo $case['phone']; ?></td>
+				<td><?php echo $case['doc']; ?></td>
 			</tr>
 		<?php } ?>
 	</tbody>

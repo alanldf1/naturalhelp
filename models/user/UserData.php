@@ -22,6 +22,10 @@ class UserData
      public function getAllDonor(){
         return $this->pdoQuery->fetchAll('SELECT * FROM users WHERE type = 2 ');
      }
+	 public function getAllCases(){
+        return $this->pdoQuery->fetchAll('SELECT * FROM users WHERE type = 1 ');
+     }
+
 	public function getData($id)
 	{
 

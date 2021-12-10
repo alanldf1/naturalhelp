@@ -104,7 +104,7 @@ footer .social-media{
   text-align: center;
 }
 footer .social-media h2{
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: space-around;
 }

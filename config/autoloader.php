@@ -28,7 +28,7 @@ $paths = array(
   'controllers/dashboard/login',
   'controllers/dashboard/home',
   'controllers/dashboard/donor',
-  'controllers/dashboard/case',
+  'controllers/dashboard/cases',
 
   //backend
   'models',

@@ -20,7 +20,7 @@ $commonRoutes = array(
 	'dashboard'		  		=> 'HomeDashboardController/index',
 	'dashboard/login'		=> 'LoginAdminController/login',
 	'dashboard/donor'    	=> 'DonorController/index',
-	'dashboard/case' 		=> 'ReceiverController/index',
+	'dashboard/casos' 		=> 'CasesController/index',
 	'dashboard/mensagens' 	=> 'MessagesController/index',
 );
 

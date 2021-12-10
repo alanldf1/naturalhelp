@@ -30,7 +30,7 @@
                 </a>
             </li>
             <li>
-                <a href="<?php echo $url; ?>/dashboard/case" class="<?php echo (end($params) == 'case') ? 'active' : '';?>">
+                <a href="<?php echo $url; ?>/dashboard/casos" class="<?php echo (end($params) == 'casos') ? 'active' : '';?>">
                     <i class="fas fa-people-carry"></i>
                     Casos para ajuda
                 </a>

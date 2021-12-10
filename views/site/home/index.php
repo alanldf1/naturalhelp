@@ -2,13 +2,29 @@
 	<div class="banner-top">
 		<h2 class="font-black text-light">ASSISTÊNCIA EM CASOS DE DESASTRES NATURAIS</h2>
 	</div>
+	<div class="panel-choose">
+		<a href="<?=$url?>/contact">
+			<div class="need-help">
+				<div class="contrast-card">
+					<h3 class="font-black text-light">Quero ajuda!</h3>
+				</div>
+			</div>
+		</a>
+		<a href="<?=$url?>/doacoes">
+			<div class="want-help">
+				<div class="contrast-card">
+					<h3 class="font-black text-light">Quero ajudar!</h3>
+				</div>
+			</div>
+		</a>
+	</div>
 	<div class="panel-cases">
 		<h2 class="text-center font-black">ATINGIDOS</h2>
 		<div class="cases">
 			<div class="card-case">
 				<div class="col-md-9 col-12 carousel double-row">
                 <div class="owl-carousel w-100 product">
-					<!-- <?php foreach ($products['categoryproduct'] as $i => $product) { ?>
+					<?php foreach ($products['categoryproduct'] as $i => $product) { ?>
                         <div class="div-product" data-slide-index="<?=$i?>">
 							<a href="<?=$url?>/produto/ver/<?=$product['id'] . '/' . strtolower($this->helpers['SanitizeString']->sanitizeString($product['name']))?>"><?=$produt['name']?>
 								<div class="product-image" style="background-image: url(<?=$url?>/assets/img/product/<?=$product['id']?>/<?=$product['photo']?>);">
@@ -25,7 +41,7 @@
                         
                 </div>
                 
-            </div> -->
+            </div>
 			</div>
 		</div>
 	</div>

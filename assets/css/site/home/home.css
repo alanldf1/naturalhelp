@@ -41,8 +41,55 @@
   letter-spacing: -.05rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .panel-choose{
+    align-items: center;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 15px 0;
+    text-align: center;
+  }
+  .panel-choose a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .panel-choose div{
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    transition: .3s all;
+    width: 80%;
+  }
+  .panel-choose div:hover{
+    transform: scale(.9);
+  }
+  .panel-choose h3{
+    text-shadow: 2px 3px 15px #333;
+  }
+  .panel-choose .need-help{
+    background-image: url(../../../img/banners/donation.jpg);
+  }
+  .panel-choose div .contrast-card{
+   background-color: #00000029;
+   width: 100%;
+   height: 100%;
+   transform: scale(1);
+  }
+  .panel-choose .want-help{
+    background-image: url(../../../img/banners/help1.jpg);
+  }
 
-/*responsive*/
+}  /*responsive*/
 
 @media (min-width: 40em) {
 
